@@ -13,12 +13,23 @@ package ejergitejemplo;
  * @author cyka
  */
 public class EjerGitEjemplo {
+    private String Jonathan;
+
+    public String getJonathan() {
+        return Jonathan;
+    }
+
+    public void setJonathan(String Jonathan) {
+        this.Jonathan = Jonathan;
+    }
+    
+    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    // TODO code application logic here
     }
     
 }
