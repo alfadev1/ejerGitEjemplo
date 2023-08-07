@@ -5,7 +5,7 @@
 package ejergitejemplo;
 
 /**
- *
+ * crear atributo y su respectivo get and setter
  * @author cyka
  */
 public class EjerGitEjemplo {
