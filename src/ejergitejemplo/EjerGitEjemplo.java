@@ -12,24 +12,31 @@ package ejergitejemplo;
  * 
  * @author cyka
  */
-public class EjerGitEjemplo {
-    private String Jonathan;
-
-    public String getJonathan() {
-        return Jonathan;
-    }
-
-    public void setJonathan(String Jonathan) {
-        this.Jonathan = Jonathan;
-    }
-    
-    
-
+    public class EjerGitEjemplo {
+        private String Jonathan;
+        private String Nicolas;
+        
+        public String getJonathan() {
+            return Jonathan;
+        }
+        
+        public void setJonathan(String Jonathan) {
+            this.Jonathan = Jonathan;
+        }
+        /*Getter y Setter Nicolás*/
+        public String getNicolas() {
+            return Nicolas;
+        }
+        public void setNicolas(String Nicolas) {
+            this.Nicolas = Nicolas;
+        }
+        
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    // TODO code application logic here
+        
+        
     }
     
 }
