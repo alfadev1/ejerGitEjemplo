@@ -17,6 +17,15 @@ package ejergitejemplo;
     private String Jonathan;
     private String Nicolas;
     private String Facundo;
+    private String brandon;
+    
+    public String getBrandon() {
+        return brandon;
+    }
+    
+    public void setBrandon(String brandon) {
+        this.brandon=brandon;
+    }
 
     public String getJonathan() {
         return Jonathan;
