@@ -12,29 +12,43 @@ package ejergitejemplo;
  * 
  * @author cyka
  */
-    public class EjerGitEjemplo {
-        private String Jonathan;
-        private String Nicolas;
-        
-        public String getJonathan() {
-            return Jonathan;
-        }
-        
-        public void setJonathan(String Jonathan) {
-            this.Jonathan = Jonathan;
-        }
-        /*Getter y Setter Nicolás*/
-        public String getNicolas() {
-            return Nicolas;
-        }
-        public void setNicolas(String Nicolas) {
-            this.Nicolas = Nicolas;
-        }
-        
+   public class EjerGitEjemplo {
+
+    private String Jonathan;
+    private String Nicolas;
+    private String Facundo;
+
+    public String getJonathan() {
+        return Jonathan;
+    }
+
+    public void setJonathan(String Jonathan) {
+        this.Jonathan = Jonathan;
+    }
+
+    /*Getter y Setter Nicolás*/
+    public String getNicolas() {
+        return Nicolas;
+    }
+
+    public void setNicolas(String Nicolas) {
+        this.Nicolas = Nicolas;
+    }
+
+    public String getFacundo() {
+        return Facundo;
+    }
+
+    public void setFacundo(String Facundo) {
+        this.Facundo = Facundo;
+    }
+
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+      
         
         
     }
