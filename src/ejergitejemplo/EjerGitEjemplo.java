@@ -18,6 +18,22 @@ package ejergitejemplo;
     private String Nicolas;
     private String Facundo;
     private String brandon;
+    private String Omar;
+
+    public String getOmar() {
+        return Omar;
+        
+    }
+
+    public void setOmar(String Omar) {
+        this.Omar = Omar;
+    }
+    
+
+    public EjerGitEjemplo(String Omar) {
+        this.Omar = Omar;
+    }
+    
     
     public String getBrandon() {
         return brandon;
@@ -60,6 +76,10 @@ package ejergitejemplo;
       
         
         System.out.println("soy enzo que onda");
+        
+        
+        System.out.println("Buenos dias, Aca Omar Cremer");
+               
     }
     
     
